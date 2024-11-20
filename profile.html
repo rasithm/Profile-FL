@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="profile-right.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul class="menu">
+                    <li class="logo">
+                        <!-- change the name of logo according to your name of image (mani/vengu) -->
+                        <a href="#"><img src="p2.png" alt="Placeme Logo" style="height: 30px;"></a>
+                    </li>
+                    <div class="item">
+                        
+                    
+                        <li ><a href="{% url 'job_seeker:home' %}"><i class="fa-solid fa-house"></i>Home</a></li>
+                    </div>
+                    <div class="item">
+                        
+                    
+                        <li><a href="{% url 'job_seeker:job' %}"><i class="fa-solid fa-briefcase"></i>Jobs</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="{% url 'job_seeker:profile' %}"><i class="fa-solid fa-bell"></i>Notifications</a></li>
+                    </div>
+                    
+                    <li class="item button"><a href="{% url 'job_seeker:profile' %}"><i class="fa-solid fa-user"></i> 
+                      Profile</a></li>
+                    <li class="toggle" id="menu-toggle"><span class="bars"></span></li>
+                    <li class="item button"><a href="{% url 'auth:login' %}">Log In</a></li>
+                    <li class="item">
+                        <select name="Usertypes" onchange="location = this.value;">
+                            <option value="{% url 'job_seeker:home' %}">Job Seeker</option>
+                            <option value="{% url 'recruiters:home' %}">Recruiter</option>
+                            <option value="{% url 'administrator:dashboard' %}">Administrator</option>
+                            <option value="{% url 'refer_and_earn:home' %}">Refer and earn</option>
+                        </select> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="profile-container"> 
+            <div class="left-container">
+                <div class="profile-pic">
+                    <div class="pic-div">
+                        <img src="profile image.png" class="pic-photo">
+                        <button class="btn">+</button>
+                    </div>
+                    
+                </div>
+                <div class="profile-link">
+                    <div class="link-name">
+                       <ul class="left-ul">
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">personal info</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">Education</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">Key Skills</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">Perference</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">Internship</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">Employement</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li-1">
+                                <div class="personal-div">Career Info</div>
+                                <div class="height"></div>
+                            </div>
+                        </li>
+                       </ul>
+                        
+
+
+                    </div>
+                    <div class="logout-div">
+                        <div class="logout-btn-div">
+                            <button class="logout-btn">Logout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="info-container">
+                    <div class="info-name">
+
+
+
+                        <div class="info-name1">
+                            <div class="info-name1-col">
+                                <div class="name">
+                                    <h2>Vevek</h2>
+                                    <i class="fa-solid fa-pencil"></i>
+                                </div> <br>
+                                <div class="info-name-1p">
+                                    <p>Diplamo/ITI</p>
+                                    <p>don bosco disloma and polytechnic college</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-date">
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="skill-container">
+
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>

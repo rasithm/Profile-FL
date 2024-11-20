@@ -1,0 +1,38 @@
+.right-container{
+    min-height: 400px;
+    max-height: max-content;
+    width: 740px;
+    margin-top: 40px;
+    background-color: aqua;
+    margin-left: 50px;
+  }
+
+  /**/
+  .info-container{
+    min-height: 200px;
+    height: auto;
+    background-color: rgb(104, 77, 77);
+  }
+  .name{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 100px;
+    
+  }
+  .fa-pencil{
+    font-size: 20px;
+    margin-top: 6px;
+  }
+  .info-name1{
+    background-color: brown;
+    display: flex;
+  }
+  .info-name1-col{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 73, 73);
+  }
+  .info-name-1p{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+  }
