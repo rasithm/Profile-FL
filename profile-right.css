@@ -1,6 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
 .right-container{
     min-height: 400px;
     max-height: max-content;
+    height: auto;
     width: 740px;
     margin-top: 40px;
     background-color: aqua;
@@ -9,30 +18,120 @@
 
   /**/
   .info-container{
-    min-height: 200px;
+    min-height: 250px;
     height: auto;
     background-color: rgb(104, 77, 77);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .name{
+  .info-name{
+    height: 80px;
+    background-color: bisque;
     display: flex;
-    background-color: blanchedalmond;
-    width: 100px;
     
+  }
+  .info-name1{
+    height: 80px;
+    background-color: blue;
+    width: 60%;
+  }
+  .info-date{
+    height: 80px;
+    background-color: cadetblue;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    background-color: blanchedalmond;
+  }
+  .name-div{
+    display: flex;
+    background-color: azure;
+  }
+  .name-div h1{
+    font-size: 28px;
+    font-weight:900;
   }
   .fa-pencil{
     font-size: 20px;
-    margin-top: 6px;
+    margin-top: 13px;
+    margin-left: 2px;
+    
   }
-  .info-name1{
-    background-color: brown;
+  .detial-div-name p{
+    font-size: 12px;
+    font-weight: 500;
+
+  }
+  
+  .info-date p{
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .update-p{
+    color: gray;
+  }
+  .date{
+    color: rgb(110, 110, 110);
+  }
+  .detail-main{
+    min-height: 160px;
+    height: auto;
+    background-color: blueviolet;
     display: flex;
   }
-  .info-name1-col{
+  .detail-1{
+    min-height: 80px;
+    height: auto;
+    background-color: aquamarine;
+    width: 50%;
+    display: flex;
+  }
+  .gender-box{
+    background-color: darkgoldenrod;
+    height: 160px;
+    width: 50%;
+    padding-right:10px ;
+    padding-top: 10px;
+  }
+  .gender-box-ul{
+    background-color: crimson;
     display: flex;
     flex-direction: column;
-    background-color: rgb(54, 73, 73);
+    justify-content: space-evenly;
+    height: 140px;
+    
   }
-  .info-name-1p{
-    background-color: aquamarine;
-    margin-bottom: 20px;
+  
+  .gender-box-person{
+    display: flex;
   }
+  .gender-box-date{
+    display: flex;
+  }
+  .gender-box-place{
+    display: flex;
+  }
+
+
+  
+  .phone-box{
+    background-color: cornflowerblue;
+    height: 160px;
+    
+    width: 50%;
+    
+  }
+  .fa-user{
+    margin-right: 8px;
+    margin-top: 3px;
+  }
+
+  .uploadfile-div{
+    min-height: 80px;
+
+    background-color: chocolate;
+    width: 50%;
+    
+  }  
