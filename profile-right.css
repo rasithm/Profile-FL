@@ -94,6 +94,7 @@
     width: 50%;
     padding-right:10px ;
     padding-top: 10px;
+    border-right: 2px solid rgb(168, 158, 158);
   }
   .gender-box-ul{
     background-color: crimson;
@@ -101,6 +102,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 140px;
+    width: 100%;
     
   }
   
@@ -112,26 +114,136 @@
   }
   .gender-box-place{
     display: flex;
+    width: 100%;
+    margin-top: 2px;
+    
   }
+
 
 
   
+  .fa-user,.fa-calendar-week,.fa-location-dot{
+    margin-right: 8px;
+    margin-top: 3px;
+  }
+  .fa-location-dot{
+    font-size: 18px;
+  }
+
+  .gender-box-place p{
+    font-size: 12px;
+    
+  
+  }
+  .gender-box-date p{
+    margin-top: 2px;
+    font-size: 14px;
+  }
   .phone-box{
     background-color: cornflowerblue;
     height: 160px;
-    
+    padding-right:10px ;
+    padding-top: 10px;
     width: 50%;
     
   }
-  .fa-user{
+  .phone-box-ul{
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 140px;
+    width: 100%;
+  }
+  .phone-box-person{
+    display: flex;
+  }
+  .phone-box-date{
+    display: flex;
+    margin-top: 2px;
+  }
+  .phone-box-place{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    
+    
+  }
+
+  .fa-phone{
     margin-right: 8px;
     margin-top: 3px;
   }
 
-  .uploadfile-div{
-    min-height: 80px;
+  .fa-envelope{
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+  .fa-suitcase{
+    margin-right: 8px;
+    font-size: 18px;
+  }
 
-    background-color: chocolate;
+  .phone-box-place p{
+    font-size: 14px;
+    
+  
+  }
+  .phone-box-date p{
+    margin-top: 2px;
+    font-size: 12px;
+  }
+
+
+  .uploadfile-div{
+    height: 160px;
+    padding: 20px;
+    background-color: rgb(30, 210, 171);
     width: 50%;
     
   }  
+  .color-div{
+    height: 120px;
+    background-color: #e2a624;
+    display: flex;
+
+  }
+  .resume{
+    height: 120px;
+    width: 50%;
+    background-color: rgb(200, 255, 0);
+    
+  }
+  .resume-ul li{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .resume-a1{
+    display: flex;
+  }
+  
+  .resume-a2{
+    display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .upload-file{
+    height: 120px;
+    width: 50%;
+    background-color: lightcoral;
+  }
+
+  
+
