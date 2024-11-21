@@ -14,6 +14,7 @@
     margin-top: 40px;
     background-color: aqua;
     margin-left: 50px;
+    border-radius: 15px;
   }
 
   /**/
@@ -25,6 +26,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 15px;
   }
   .info-name{
     height: 80px;
@@ -220,14 +222,23 @@
   }
   .resume-a1{
     display: flex;
+    margin-top: 5px;
   }
   
   .resume-a2{
     display: flex;
+    margin-top: 2px;
   }
 
-
-
+  .fa-file{
+    margin-right: 10px;
+    margin-top: 2px;
+    font-size: 20px;
+  }
+  .resume-a1 .fa-regular{
+    font-size: 20px;
+    margin-top: 2px;
+  }
 
 
 
@@ -243,7 +254,22 @@
     height: 120px;
     width: 50%;
     background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
   }
 
+  .upload-btn{
+    width: 100%;
+    margin-top: 32px;
+    border: none;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    background-color: darkblue;
+    color: white;
+  }
   
 
