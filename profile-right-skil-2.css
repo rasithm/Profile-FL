@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  .Perference{
+    min-height: 100px;
+    height: auto;
+    background-color: rgb(231, 157, 67);
+    padding-top: 10px;
+  }
+
+  .Perference-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: auto;
+    margin-top: 10px;
+  }
+  .Perference-heading h4{
+    font-size: 20px;
+
+  }
+  .Perference-add-div{
+    display: flex;
+    justify-content: space-around;
+  }
+  .Perference-add-div a{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 4px;
+  }
+  .Perference-add-div .fa-pen-to-square{
+    margin-top: 2px;
+  }
+  .languages{
+    padding-top: 10px;
+    
+    
+  }
+  .languages-row{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .languages-ul{
+    display: flex;
+    width: 90%;
+    overflow-x: hidden;
+  }
+  .english-div{
+    display: flex;
+  }
+  .languages-ul li{
+    margin-right: 30px;
+  }
+  .fa-pen{
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  
+
+  .employement{
+    min-height: 100px;
+    height: auto;
+    background-color: rgb(53, 201, 201);
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+  }
+  .employement-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: auto;
+    margin-top: 10px;
+  }
+  .employement-heading h4{
+    font-size: 20px;
+
+  }
+  .employement-add-div{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .employement-add-div a{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 4px;
+  }
+  .employement-add-div .fa-pen-to-square{
+    margin-top: 2px;
+  }
+
+  .employement-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .employement-role{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+
+  .employement-date-div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 8px;
+  }
+  .employement-date{
+    font-size: 12px;
+  }
+  .employement-time{
+    font-size: 10px;
+  }
+
+
+
+  .internship{
+    min-height: 100px;
+    height: auto;
+    background-color: rgb(53, 201, 201);
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+  }
+  .internship-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: auto;
+    margin-top: 10px;
+  }
+  .internship-heading h4{
+    font-size: 20px;
+
+  }
+  .internship-add-div{
+    display: flex;
+    justify-content: space-around;
+  }
+  .internship-add-div a{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 4px;
+  }
+  .internship-add-div .fa-pen-to-square{
+    margin-top: 2px;
+  }
+  .internship-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .internship-role{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .internship-date-div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 8px;
+    margin-right: 10px;
+  }
+  .internship-date{
+    font-size: 12px;
+  }
+  .internship-time{
+    font-size: 10px;
+  }
