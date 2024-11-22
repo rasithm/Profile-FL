@@ -27,19 +27,23 @@ body {
   .left-container{
     
   width: 350px;
-  background-color: rgb(9, 241, 29);
+  /*background-color: rgb(9, 241, 29);*/
+  background-color: #ffffff;
   margin-top: 40px;
-  min-height: 700px;
+  height: 700px;
   display: flex;
   flex-direction: column; /* Ensures a minimum size */
-  height: auto; /* Prevents overflow if necessary */
+   /* Prevents overflow if necessary */
   padding-top: 1px;
   border-radius: 15px;
+  position: sticky;
+  top: 55px;
+  
   
   
   }
   .profile-pic{
-    background-color: bisque;
+    /*background-color: bisque;*/
     height: 30%;
     width: 100%;
     display: flex;
@@ -50,18 +54,19 @@ body {
     
   }
   .profile-link{
-    background-color: rgb(255, 8, 0);
+    /*background-color: rgb(255, 8, 0);*/
     display: flex;
     flex-direction: column;
     height: 70%;
     border-end-end-radius: 15px;
     
     
+    
   }
   .pic-photo{
     height: 150px;
     width: 150px;
-    background-color: darkkhaki;
+    /*background-color: darkkhaki;*/
     border-radius: 70px;
     border: 8px double black;
     
@@ -82,7 +87,7 @@ body {
     color: white;
   }
   .pic-div{
-    background-color: rgb(65, 192, 133);
+    /*background-color: rgb(65, 192, 133);*/
     width: 250px;
     display: flex;
     justify-content: center;
@@ -90,19 +95,21 @@ body {
     position: relative;
   }
   .link-name{
-    background-color: rgb(201, 155, 201);
+    /*background-color: rgb(201, 155, 201);*/
     height: 50%;
     flex-grow: 1;
+    
   
   }
   .logout-div{
-    background-color: rgb(168, 219, 202);
+    /*background-color: rgb(168, 219, 202);*/
     height: 20%;
     flex-grow: 0; /* Prevent unnecessary expansion */
     min-height: 50px; /* Ensures it's always visible */
     padding: 10px;
     border-end-end-radius: 15px;
-    
+    position: sticky;
+    top: 0;
     
   }
   .left-ul{
@@ -123,7 +130,7 @@ body {
 
 
   .logout-btn-div{
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
     justify-content: center;
   }

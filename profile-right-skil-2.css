@@ -7,14 +7,14 @@
   .Perference{
     min-height: 100px;
     height: auto;
-    background-color: rgb(231, 157, 67);
+    /*background-color: rgb(231, 157, 67);*/
     padding-top: 10px;
   }
 
   .Perference-heading{
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    /*background-color: blue;*/
     height: auto;
     margin-top: 10px;
   }
@@ -25,6 +25,7 @@
   .Perference-add-div{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
   }
   .Perference-add-div a{
     font-size: 20px;
@@ -43,19 +44,64 @@
     display: flex;
     margin-top: 5px;
     margin-bottom: 20px;
+    justify-content: space-around;
+    
   }
-
+  .languages-ul-div{
+    width: 85%;
+    display: flex;
+  }
   .languages-ul{
     display: flex;
-    width: 90%;
-    overflow-x: hidden;
+    flex-direction: column;
+    
+    
+    
+    margin-top: 20px;
+    
   }
-  .english-div{
+  .languages h4{
+    text-decoration: 2px underline;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .languages-ul-li-1-head{
+    padding: 10px;
+    /*border: 2px solid black;*/
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-weight: 600;
   }
-  .languages-ul li{
-    margin-right: 30px;
+  .languages-ul-li-1{
+    padding: 10px;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
   }
+  .fa-circle-check,.fa-circle-xmark{
+    font-size: 22px;
+  }
+  .fa-circle-check{
+    color: rgb(37, 155, 56);
+  }
+  .fa-circle-xmark{
+    color: rgb(163, 46, 46);
+  }
+  
+
+
+
+
+  
+  
+
+
   .fa-pen{
     margin-left: 5px;
     margin-top: 2px;
@@ -65,7 +111,7 @@
   .employement{
     min-height: 100px;
     height: auto;
-    background-color: rgb(53, 201, 201);
+    /*background-color: rgb(53, 201, 201);*/
     padding-top: 10px;
     margin-top: 10px;
     border-top: 2px solid gray;
@@ -73,7 +119,7 @@
   .employement-heading{
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    /*background-color: blue;*/
     height: auto;
     margin-top: 10px;
   }
@@ -84,6 +130,7 @@
   .employement-add-div{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
   }
 
   .employement-add-div a{
@@ -124,7 +171,7 @@
   .internship{
     min-height: 100px;
     height: auto;
-    background-color: rgb(53, 201, 201);
+    /*background-color: rgb(53, 201, 201);*/
     padding-top: 10px;
     margin-top: 10px;
     border-top: 2px solid gray;
@@ -132,7 +179,7 @@
   .internship-heading{
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    /*background-color: blue;*/
     height: auto;
     margin-top: 10px;
   }
@@ -143,6 +190,7 @@
   .internship-add-div{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
   }
   .internship-add-div a{
     font-size: 20px;
@@ -174,3 +222,87 @@
   .internship-time{
     font-size: 10px;
   }
+
+
+
+
+
+
+
+
+
+  .career{
+    min-height: 100px;
+    height: auto;
+    /*background-color: rgb(53, 201, 201);*/
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+  }
+  .career-heading{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: blue;*/
+    height: auto;
+    margin-top: 10px;
+  }
+  .career-heading h4{
+    font-size: 20px;
+
+  }
+  .career-add-div{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .career-add-div a{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 4px;
+  }
+  .career-add-div .fa-pen-to-square{
+    margin-top: 2px;
+  }
+
+
+  .career-info-list{
+    display: flex;
+    /*background-color: indianred;*/
+    margin-top: 10px;
+    min-height: 40px;
+    height: auto;
+  }
+
+  .career-info-list-1{
+    /*background-color: burlywood;*/
+    width: 40%;
+    
+    
+  }
+  .career-info-list-2{
+    /*background-color: crimson;*/
+    width: 40%;
+  }
+  .career-info-list-1-1{
+    margin-top: 25px;
+  }
+  .career-info-list-2-1{
+    margin-top: 25px;
+  }
+
+  .career-info-list-1-1 h4{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .career-info-list-1-1 p{
+    font-size: 10px;
+  }
+
+  .career-info-list-2-1 h4{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .career-info-list-2-1 p{
+    font-size: 10px;
+  }
+  
