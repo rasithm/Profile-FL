@@ -10,10 +10,14 @@
     min-height: 400px;
     max-height: max-content;
     height: auto;
-    width: 740px;
+
+    /* mod */
+    width: 800px;
+
+
     margin-top: 40px;
     /*background-color: aqua;*/
-    background-color: white;
+    /*background-color: white;*/
     margin-left: 50px;
     border-radius: 15px;
   }
@@ -28,6 +32,9 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
+
+    /* mod */
+    background-color: #fff;
   }
   .info-name{
     height: 80px;
@@ -51,10 +58,12 @@
   .name-div{
     display: flex;
     /*background-color: azure;*/
+    flex-wrap: wrap;
   }
   .name-div h1{
     font-size: 28px;
     font-weight:900;
+    flex-wrap: wrap;
   }
   .fa-pencil{
     font-size: 20px;
@@ -84,22 +93,25 @@
     /*background-color: blueviolet;*/
     display: flex;
   }
+  /* mod */
   .detail-1{
     min-height: 80px;
     height: auto;
-    /*background-color: aquamarine;*/
+    /* background-color: aquamarine; */
     width: 50%;
     display: flex;
   }
+  /* mod */
   .gender-box{
-    /*background-color: darkgoldenrod;*/
+    /* background-color: darkgoldenrod;  */
     height: 160px;
-    width: 45%;
+    width: 40%;
     
     
     padding-top: 10px;
     
   }
+  /* mod */
   .gender-box-ul{
     
     display: flex;
@@ -144,16 +156,17 @@
     font-size: 14px;
   }
   .phone-box{
-    /*background-color: cornflowerblue;*/
+    /* background-color: cornflowerblue; */
     height: 160px;
     padding-right:10px ;
     padding-top: 10px;
-    width: 50%;
+    width: 60%;
     
     
   }
+  /* mod */
   .phone-box-ul{
-    /*background-color: crimson;*/
+    /* background-color: crimson; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -167,7 +180,17 @@
   .phone-box-date{
     display: flex;
     margin-top: 2px;
+    
   }
+  /* mod */
+  .email{
+    flex-wrap: wrap;
+  }
+  .email-div{
+    flex-wrap: wrap;
+  }
+
+
   .phone-box-place{
     display: flex;
     width: 100%;
@@ -203,22 +226,35 @@
 
   .uploadfile-div{
     height: 160px;
-    padding: 20px;
-    /*background-color: rgb(30, 210, 171);*/
+    
+    /* mod */
+    padding-top: 20px;
+    padding-right: 0px;
+    
+    /* background-color: rgb(30, 210, 171);  */
+
+    margin-left: 45px;
+    display: flex;
+    justify-content: end;
+    
+
     width: 50%;
     
-  }  
+  }
+  /* mod   */
   .color-div{
     height: 120px;
     background-color: #FFBD03;
     display: flex;
     border-radius: 15px;
+    width: 90%;
+    
 
   }
   .resume{
     height: 120px;
     width: 50%;
-    /*background-color: rgb(200, 255, 0);*/
+    /* background-color: rgb(200, 255, 0); */
     
   }
   .resume-ul li{
@@ -253,18 +289,21 @@
 
 
 
-
+  /* mod */
 
   .upload-file{
     height: 120px;
     width: 50%;
-    /*background-color: lightcoral;*/
+    /* background-color: lightcoral; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 8px;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 28px;
   }
-
+  /* mod */
   .upload-btn{
     width: 100%;
     margin-top: 32px;
@@ -275,6 +314,7 @@
     font-size: 16px;
     background-color: darkblue;
     color: white;
+    
   }
   
 

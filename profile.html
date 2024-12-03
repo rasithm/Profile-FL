@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="profile-right-skill.css">
     <link rel="stylesheet" href="profile-right-skil-2.css">
     <link rel="stylesheet" href="nav.css">
+    <script defer src="profile.js"></script>
 </head>
 <body>
     <header>
@@ -162,10 +163,11 @@
                                             <p>15-01-2003</p>
                                         </div>
                                     </li>
+                                    <!-- mod -->
                                     <li>
-                                        <div class="gender-box-place">
-                                            <i class="fa-solid fa-location-dot"></i>
-                                            <p>2/203 Kadapakkam, Changalpatu</p>
+                                        <div class="phone-box-place">
+                                            <i class="fa-solid fa-suitcase"></i>
+                                            <p>Fresher</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -182,16 +184,21 @@
                                             <p>9344533082</p>
                                         </div>
                                     </li>
+                                    <!-- mod -->
                                     <li>
                                         <div class="phone-box-date">
                                             <i class="fa-solid fa-envelope"></i>
-                                            <p>mohamedrasith134@gmail.com</p>
+                                            <div class="email-div">
+                                                <p class="email">mohamedrasith134</p>
+                                                <p>@gmail.com</p>
+                                            </div>
                                         </div>
                                     </li>
+                                    
                                     <li>
-                                        <div class="phone-box-place">
-                                            <i class="fa-solid fa-suitcase"></i>
-                                            <p>Fresher</p>
+                                        <div class="gender-box-place">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <p>2/203 Kadapakkam, Changalpatu</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -282,7 +289,7 @@
                         </div>
                         <div class="key-list">
                             <div class="key-list-div">
-                                <ul class="key-list-ul">
+                                <ul class="key-list-ul" id="keyUl">
                                     <li class="key-list-li">
                                         HTML<button class="key-list-li-btn">x</button>
                                     </li>
@@ -298,11 +305,18 @@
                                     <li class="key-list-li">
                                         Node<button class="key-list-li-btn">x</button>
                                     </li>
+
+                                    <li class="key-list-li">
+                                        Node<button class="key-list-li-btn">x</button>
+                                    </li>
                                     
                                 </ul>
                             </div>
                             <div class="key-list-more">
-                                <button class="more-btn">More <i class="fa-solid fa-arrow-right"></i></button>
+
+                                <!-- mod -->
+                                <button class="more-btn" id="skill-more">More <i class="fa-solid fa-arrow-right"></i></button>
+                                <button class="close-btn" id="skill-close">Close <i class="fa-solid fa-xmark"></i></i></button>
                             </div>
                         </div>
 
@@ -396,7 +410,7 @@
                                     </ul>
                                 </div>
                                 <div class="key-list-more">
-                                    <button class="more-btn">Check <i class="fa-solid fa-arrow-right"></i></button>
+                                    <!-- <button class="more-btn">Check <i class="fa-solid fa-arrow-right"></i></button> -->
                                 </div>
                                 
                             </div>
@@ -406,7 +420,20 @@
                             
 
                             <h3>Preferred location</h3>
-                            <p class="Preferred-text">Add Preferred Work Location</p> 
+
+                            <!-- mod -->
+                             <div class="Preferred-text-div-par">
+                                <div class="Preferred-text-div" id="PreferredTextDiv">
+                                    <p class="Preferred-text">Add Preferred Work Location</p> 
+                                    <p class="Preferred-text">Add Preferred Work Location</p> 
+                                </div>
+                                <div class="Preferred-btn-dic">
+                                    <button class="Preferred-more-btn" id="PreferredMoreBtn">More <i class="fa-solid fa-arrow-right"></i></button>
+                                    <button class="Preferred-Close-btn" id="PreferredCloseBtn">Close <i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                             </div>
+                            
+                             
                         </div>
                     </div>
 

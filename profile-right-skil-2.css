@@ -19,7 +19,8 @@
     margin-top: 10px;
   }
   .Perference-heading h4{
-    font-size: 20px;
+    /* mod */
+    font-size: 22px;
 
   }
   .Perference-add-div{
@@ -50,6 +51,8 @@
   .languages-ul-div{
     width: 85%;
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
   }
   .languages-ul{
     display: flex;
@@ -58,12 +61,19 @@
     
     
     margin-top: 20px;
+
+    /* mod */
+    margin-left: 25px;
     
   }
   .languages h4{
     text-decoration: 2px underline;
     margin-left: 5px;
+    
     font-size: 18px;
+
+    /* mod */
+    font-weight: 650;
   }
   .languages-ul-li-1-head{
     padding: 10px;
@@ -73,7 +83,10 @@
     align-items: center;
     height: 50px;
     width: 100px;
-    font-weight: 600;
+
+    /* mod */
+    font-weight: 700;
+    font-size: 17px;
   }
   .languages-ul-li-1{
     padding: 10px;
@@ -83,9 +96,13 @@
     align-items: center;
     height: 50px;
     width: 100px;
+
+    /* mod */
+    font-size: 17px;
   }
   .fa-circle-check,.fa-circle-xmark{
-    font-size: 22px;
+    /* mod */
+    font-size: 24px;
   }
   .fa-circle-check{
     color: rgb(37, 155, 56);
@@ -93,9 +110,48 @@
   .fa-circle-xmark{
     color: rgb(163, 46, 46);
   }
-  
 
 
+  /* mod */
+  .Preferred-text-div-par{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+  .Preferred-text-div{
+    /* background-color: blanchedalmond; */
+    overflow-y: hidden;
+    height: 25px;
+    width: 85%;
+  }
+  .Preferred-btn-div{
+    margin-left: 10px;
+  }
+  .Preferred-more-btn{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .Preferred-Close-btn{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    display: none;
+  }
+  .Preferred-text{
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  /* end */
 
 
   

@@ -17,7 +17,11 @@ body {
   
     display: flex;
     background-color: blueviolet;
-    margin: 60px 80px;
+
+    /* mod */
+    margin: 40px 60px;
+
+
      /* Use min-height instead of fixed height */
     height: auto;      /* Allow it to expand */
   
