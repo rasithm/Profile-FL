@@ -23,12 +23,31 @@ const PreferredMoreBtn = document.getElementById('PreferredMoreBtn')
 const PreferredCloseBtn = document.getElementById('PreferredCloseBtn')
 
 PreferredMoreBtn.addEventListener('click' , () => {
-    PreferredTextDiv.style.height = 'auto'
-    PreferredMoreBtn.style.display = 'none'
-    PreferredCloseBtn.style.display = 'inline-block'
+    PreferredTextDiv.style.height = 'auto';
+    PreferredMoreBtn.style.display = 'none';
+    PreferredCloseBtn.style.display = 'inline-block';
 })
 PreferredCloseBtn.addEventListener('click' , () => {
-    PreferredTextDiv.style.height = '25px'
-    PreferredCloseBtn.style.display = 'none'
-    PreferredMoreBtn.style.display = 'inline-block'
+    PreferredTextDiv.style.height = '25px';
+    PreferredCloseBtn.style.display = 'none';
+    PreferredMoreBtn.style.display = 'inline-block';
 })
+
+function wrapEmailText() {
+    const email = document.getElementById('email')
+    const emailText = email.textContent
+
+
+    
+
+
+    if(emailText.length > 23){
+        const wrappedText = emailText.match(/.{1,23}/g).join('<br>');
+        email.innerHTML = wrappedText;
+    }
+}
+wrapEmailText()
+
+
+
+

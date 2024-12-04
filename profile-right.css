@@ -37,33 +37,43 @@
     background-color: #fff;
   }
   .info-name{
-    height: 80px;
+    /* mod */
+    min-height: 80px;
+    height: auto;
     /*background-color: bisque;*/
     display: flex;
     
   }
   .info-name1{
-    height: 80px;
-    /*background-color: blue;*/
-    width: 60%;
+    /* mod */
+    min-height: 80px;
+    height: auto;
+    background-color: blue;
+    
+    width: 74%;
   }
   .info-date{
-    height: 80px;
-    /*background-color: cadetblue;*/
-    width: 40%;
+    /* mod */
+    min-height: 80px;
+    height: auto;
+    background-color: cadetblue;
+    width: 26%;
+    
     display: flex;
     justify-content: end;
     /*background-color: blanchedalmond;*/
   }
   .name-div{
     display: flex;
-    /*background-color: azure;*/
+    background-color: rgb(71, 216, 216);
     flex-wrap: wrap;
+    
   }
   .name-div h1{
     font-size: 28px;
     font-weight:900;
     flex-wrap: wrap;
+  
   }
   .fa-pencil{
     font-size: 20px;
@@ -147,7 +157,7 @@
   }
 
   .gender-box-place p{
-    font-size: 12px;
+    font-size: 14px;
     
   
   }
@@ -166,13 +176,19 @@
   }
   /* mod */
   .phone-box-ul{
-    /* background-color: crimson; */
+     /* background-color: crimson;  */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 140px;
+    min-height: 140px;
+    height: auto;
     width: 100%;
     padding-left: 20px;
+    padding-top: 10px;
+  }
+  /* mod */
+  .phone-box-ul li{
+    margin-bottom: 2px;
   }
   .phone-box-person{
     display: flex;
@@ -220,7 +236,7 @@
   }
   .phone-box-date p{
     margin-top: 2px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
 
